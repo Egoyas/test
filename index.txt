@@ -5,3 +5,8 @@ git add . 													Добавление изменения файла для
 git commit -m "first commit"								Добавление Commit
 git remote add origin https://github.com/Egoyas/test.git	Подключение к удаленному серверу репозиторий
 git push -u origin master									Загрузка репозиторий и commit на удаленный сервер
+git log														История commit
+gitk														Открыть uix отображение
+git checkout master											Возврат к определенному commit
+git reset													Отмена git add
+git revert HEAD												Отмена commit
