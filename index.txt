@@ -1,4 +1,6 @@
 Сообщить("Привет, Мир!");
-git status
-git add .
-git commit -m "first commit"
+git init 						Инициализация репозитория
+git status 						Проверка статуса в репозитории
+git add . 						Добавление изменения файла для Commit
+git commit -m "first commit"	Добавление Commit
+git push -u origin master
