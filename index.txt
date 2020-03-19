@@ -1,6 +1,7 @@
 Сообщить("Привет, Мир!");
-git init 						Инициализация репозитория
-git status 						Проверка статуса в репозитории
-git add . 						Добавление изменения файла для Commit
-git commit -m "first commit"	Добавление Commit
-git push -u origin master
+git init 													Инициализация репозитория
+git status 													Проверка статуса в репозитории
+git add . 													Добавление изменения файла для Commit
+git commit -m "first commit"								Добавление Commit
+git remote add origin https://github.com/Egoyas/test.git	Подключение к удаленному серверу репозиторий
+git push -u origin master									Загрузка репозиторий и commit на удаленный сервер
