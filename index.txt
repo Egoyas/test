@@ -1,0 +1,4 @@
+Сообщить("Привет, Мир!");
+git status
+git add .
+git commit -m "first commit"
